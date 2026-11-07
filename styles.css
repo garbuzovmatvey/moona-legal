@@ -57,7 +57,7 @@ nav { justify-self:end; }
 .translation-note { color:var(--muted); font-size:14px; padding:14px 18px; background:#fff; border:1px solid #e8e6e1; border-radius:16px; margin:0 0 32px; }
 main { overflow-wrap:anywhere; hyphens:auto; }
 @media (max-width:600px) {
-  [lang="ru"] h1 { font-size:clamp(24px,7vw,36px); }
+  [lang="ru"] h1,[lang="ja"] h1 { font-size:clamp(24px,7vw,36px); }
 }
 ul { padding-inline-start:23px; padding-inline-end:0; }
 li { padding-inline-start:4px; padding-inline-end:0; }
